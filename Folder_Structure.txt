@@ -1,0 +1,30 @@
+Layered_Architecture
+├── ECU_1
+│   ├── App
+│   ├── Hal
+│   │   ├── Door_Sensor
+│   │   ├── Light_Switch
+│   │   └── Speed_Sensor
+│   ├── Include
+│   │   ├── Common_Macros
+│   │   └── Std_Types
+│   ├── Mcal
+│   │   ├── ADC
+│   │   ├── CAN
+│   │   ├── GPIO
+│   │   └── GPT
+│   └── OS
+└── ECU_2
+    ├── App
+    ├── Hal
+    │   ├── Buzzer
+    │   ├── Left_Light
+    │   └── Right_Light
+    ├── Include
+    │   ├── Common_Macros
+    │   └── Std_Types
+    ├── Mcal
+    │   ├── CAN
+    │   ├── GPIO
+    │   └── GPT
+    └── OS
