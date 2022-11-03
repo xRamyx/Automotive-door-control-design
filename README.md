@@ -2,7 +2,9 @@
 
 <div align="center">
 
-![GitHub language used](https://img.shields.io/badge/Language%3A-C-brightgreen)
+In the automotive industry, ECUs are communicating together to provide safety and driver's comfort.
+
+ECUs are microcontrollers connected with input and output devices, input devices to sense the surrounding environments, and output devices to perform actions according to readings that came from input devices.
 
 </div>
 
